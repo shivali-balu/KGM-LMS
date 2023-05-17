@@ -31,7 +31,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="home.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -74,7 +74,7 @@
                 </a>
                 <div id="collapseThree" class="collapse"  aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item text-wrap" href="#">SP (Software Programming)</a>
+                        <a class="collapse-item text-wrap" href="sp.html">SP (Software Programming)</a>
                         <a class="collapse-item text-wrap" href="#">IMS (Infrastructure Management Service)</a>
                         <a class="collapse-item text-wrap" href="#">SAP (System Analysis Program)</a>
                         <a class="collapse-item text-wrap" href="#">DM (Digital Marketing)</a>
@@ -132,16 +132,35 @@
                 </div>
             </li>
             <li class="nav-item"> 
-                <a class="nav-link" href="#">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePlacemnets"
+                    aria-expanded="true" aria-controls="collapsePlacemnets">
                     <i class="far fa-building"></i>
-                    <span>Placements</span> 
+                    <span>Placements</span>
                 </a>
+                <div id="collapsePlacemnets" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="#">Companies</a>
+                        <a class="collapse-item" href="#">Placed Students</a>
+                        <a class="collapse-item" href="#">Yet to Be Placed</a>
+                        
+                    </div>
+                </div>
             </li>
             <li class="nav-item"> 
-                <a class="nav-link" href="#">
-                    <i class="far fa-address-book >"></i>
-                    <span>Attendance</span> 
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAttendance"
+                    aria-expanded="true" aria-controls="collapseAttendance">
+                    <i class="fas fa-user"></i>
+                    <span>Attendance</span>
                 </a>
+                <div id="collapseAttendance" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="#">Students</a>
+                        <a class="collapse-item" href="#">Staffs</a>
+                        <a class="collapse-item" href="#">Sales</a>
+                        <a class="collapse-item" href="#">Non-Teaching Staffs</a>
+                        
+                    </div>
+                </div>
             </li>
             
 
@@ -624,87 +643,7 @@
                         
                                         </div>
                                   <div class="carousel-item">
-                                    <div class="container bg-light d-block w-100" style="height: 500px;">
-                                        <div class="card shadow mb-4">
-                                            <div class="card-header py-3">
-                                                <h6 class="m-0 font-weight-bold text-primary text-center h4">Student Details</h6>
-                                                <h6 class="py-2 font-weight-bold text-secondary text-center h5">SP - Full Stack</h6>
-                    
-                                            </div>
-                                            <div class="card-body">
-                                                <div class="table-responsive">
-                                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                                        <thead class = "bg-primary text-white">
-                                                            <tr>
-                                                                <th>Active Batches</th>
-                                                                <th>Student Count</th>
-                                                                <th>Today's Presentees</th>
-                                                                <th>Topics</th>
-                                                                <th>Respective Tutors</th>
-                                                                <th>Course Start Date</th>
-                                                                <th>Course End Date</th>
-                                                                <th>Topics Completed</th>
-                                                                <th>Topics In Progress</th>
-                                                                <th>Topics Yet To Start</th>
-                    
-                                                            </tr>
-                                                        </thead>
-                                                       
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>Batch 16</td>
-                                                                <td>10</td>
-                                                                <td>8</td>
-                                                                <td>HTML</td>
-                                                                <td>Laura</td>
-                                                                <td>09/06/2023</td>
-                                                                <td>10/09/2023</td>
-                                                                <td>Introdution</td>
-                                                                <td>Tags</td>
-                                                                <td>Forms</td>
-                    
-                    
-                    
-                    
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Batch 15</td>
-                                                                <td>30</td>
-                                                                <td>25</td>
-                                                                <td>React</td>
-                                                                <td>Henry</td>
-                                                                <td>11/07/2023</td>
-                                                                <td>10/10/2023</td>
-                                                                <td>Introdution</td>
-                                                                <td>Import Statements</td>
-                                                                <td>Router</td>
-                    
-                    
-                    
-                    
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Batch 14</td>
-                                                                <td>4</td>
-                                                                <td>4</td>
-                                                                <td>Java Script</td>
-                                                                <td>Ross</td>
-                                                                <td>18/08/2023</td>
-                                                                <td>10/11/2023</td>
-                                                                <td>Introdution</td>
-                                                                <td>Selectors</td>
-                                                                <td>Icons</td>
-                    
-                    
-                    
-                    
-                                                            </tr>
-                                                           
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                        </div>
+                                
                     </div>
 
                                   </div>
